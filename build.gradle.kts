@@ -18,6 +18,8 @@ repositories {
 }
 
 dependencies {
+	implementation("com.h2database:h2")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.5.0")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
